@@ -8,6 +8,7 @@ export default function Home() {
       <Link href="/sobre">Página sobre</Link>
       <h1>Acessar Posts</h1>
       <Link href="/posts">Posts</Link>
+      <Link href="/exemplo?parametro=abc">Exemplo</Link>
     </div>
   );
 }
