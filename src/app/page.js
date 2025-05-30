@@ -13,6 +13,7 @@ export default function Home() {
       <Link href="/produtos/categorias/roupas">
         Ir para a Categoria de Roupas
       </Link>
+      <Link href="/dashboard"> Ir para dashboard</Link>
     </div>
   );
 }
