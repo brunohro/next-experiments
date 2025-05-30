@@ -9,6 +9,10 @@ export default function Home() {
       <h1>Acessar Posts</h1>
       <Link href="/posts">Posts</Link>
       <Link href="/exemplo?parametro=abc">Exemplo</Link>
+      {/* Nasted routes - rotas aninhadas */}
+      <Link href="/produtos/categorias/roupas">
+        Ir para a Categoria de Roupas
+      </Link>
     </div>
   );
 }
