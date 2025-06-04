@@ -26,6 +26,9 @@ export default function Home() {
               <li>
                 <Link href="/dashboard"> Ir para dashboard</Link>
               </li>
+              <li>
+                <Link href="/profile">Ir para perfil</Link>
+              </li>
               <BotaoRedirect />
             </ul>
           </nav>
